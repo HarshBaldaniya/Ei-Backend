@@ -1,0 +1,17 @@
+{
+  "name": "schoolsite-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "typescript": "^5.4.2"
+  }
+}
