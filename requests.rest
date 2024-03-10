@@ -1,1 +1,11 @@
 POST http://localhost:3000/textbook
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFsaWNlIiwiaWF0IjoxNzEwMDk3ODEzLCJleHAiOjE3MTAxMDE0MTN9.3KGG5G3NWK0BUJHJGZTKddgE2OLDCiKmgND0t5tLj9Y
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "Alice",
+  "password": "password123"
+}
