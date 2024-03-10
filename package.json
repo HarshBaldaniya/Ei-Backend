@@ -5,6 +5,8 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
+    "ts": "tsc -w",
+    "dev": "node --trace-warnings --watch dist/src/index.js",
     "start": "tsc && node dist/src/index.js"
   },
   "keywords": [],

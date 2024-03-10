@@ -12,7 +12,7 @@ dbConnection().then(() => {
     console.log('Database connection successfully established');
 
     app.listen(PORT, () => {
-        console.log(`schoolSite service is running on ${PORT}`);
+        console.log(`SchoolSite service is running on ${PORT}`);
     })
 
     app.use(router);
