@@ -10,9 +10,9 @@ export const STATUS_CODES = {
 
 export const SUCCESS_MESSAGES: SuccessMessage = {
     loginSuccess: { success: true, message: 'Login successful', statusCode: STATUS_CODES.success },
+    
 };
 
-// Error Messages
 export const ERROR_MESSAGES: ErrorMessage = {
     invalidCredentials: { error: 'Invalid credentials', statusCode: STATUS_CODES.unauthorized },
     userNotFound: { error: 'User not found', statusCode: STATUS_CODES.notFound },
